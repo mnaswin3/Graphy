@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Gr@phy!</string>
+
+    <!--Home
+    -->
+    <string name="textview_for_edittext">ENTER URL</string>
+    <string name="edittext_hint">With Json Extension</string>
+    <string name="button_for_opration">BEGIN</string>
+    <string name="textview_for_listview">SAVED URL</string>
+
+    <!--CreateNew
+    -->
+    <string name="textview_url_tag">ENTER THE URL TAG</string>
+    <string name="textview_url_value">ENTER THE URL</string>
+    <string name="button_create">CREATE</string>
+    <string name="url_tag_hint">A Name To Remember By</string>
+    <string name="url_value_hint">Site Ending With .json</string>
+
+    <!--actions_home
+    -->
+    <string name="action_add">ADD</string>
+    <string name="action_delete">DELETE</string>
+    <string name="action_refresh">REFRESH</string>
+    <string name="action_about_us">ABOUT US</string>
+
+    <!--actions_showdata
+   -->
+    
+</resources>

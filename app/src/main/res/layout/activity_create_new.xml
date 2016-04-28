@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgrey"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.aswin.testgraph.CreateNew">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/textview_style"
+        android:text="@string/textview_url_tag"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/edittext_style"
+        android:hint="@string/url_tag_hint"
+        android:id="@+id/et_url_tag" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/textview_style"
+        android:text="@string/textview_url_value"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/edittext_style"
+        android:hint="@string/url_value_hint"
+        android:inputType="textUri"
+        android:id="@+id/et_url_value"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/button_style"
+        android:id="@+id/b_create"
+        android:text="@string/button_create"/>
+
+</LinearLayout>

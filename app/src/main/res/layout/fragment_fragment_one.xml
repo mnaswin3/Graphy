@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgrey"
+
+    tools:context="com.example.aswin.testgraph.FragmentOne">
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart_line"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</FrameLayout>
